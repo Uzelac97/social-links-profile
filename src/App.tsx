@@ -48,7 +48,7 @@ const App = () => {
             <a
               key={link.id}
               href={link.url}
-              className="bg-grey-700 py-3 rounded-lg font-semibold hover:bg-lime-green hover:text-grey-900 transition-all"
+              className="bg-grey-700 py-3 rounded-lg font-semibold hover:bg-lime-green hover:text-grey-900 focus:bg-lime-green focus:text-grey-900 focus:outline-none transition-all"
             >
               {link.platform}
             </a>
